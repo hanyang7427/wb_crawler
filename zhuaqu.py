@@ -1,3 +1,4 @@
+# coding=utf-8
 import pickle
 import resvole
 from bs4 import BeautifulSoup
@@ -11,7 +12,7 @@ http_raw_request_file = 'http_raw_request.txt'
 url = 'https://weibo.com/aj/v6/comment/small'
 
 
-
+# 获取评论
 def get_more_in_comment(mid):
     params = resvole.resvole_http_raw(http_raw_request_file)
     params[0]['mid']=mid

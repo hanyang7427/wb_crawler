@@ -1,3 +1,4 @@
+# coding=utf-8
 import resvole
 import requests
 import re
